@@ -1,0 +1,65 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Google Fonts Japanese\n"
+"POT-Creation-Date: 2019-12-04 00:22+0900\n"
+"PO-Revision-Date: 2018-05-18 00:26+0900\n"
+"Last-Translator: \n"
+"Language-Team: Yossy's web service\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sgfj-admin.php:82
+msgid "Setting"
+msgstr ""
+
+#: sgfj-admin.php:85 sgfj-admin.php:167
+msgid "Font type"
+msgstr ""
+
+#: sgfj-admin.php:86
+msgid "Please check the image of each font below."
+msgstr ""
+
+#: sgfj-admin.php:153 sgfj-admin.php:171
+msgid "Apply to editor"
+msgstr ""
+
+#: sgfj-admin.php:156
+msgid "Yes"
+msgstr ""
+
+#: sgfj-admin.php:158
+msgid "No"
+msgstr ""
+
+#: sgfj-admin.php:165
+msgid "How to use"
+msgstr ""
+
+#: sgfj-admin.php:168
+msgid "The checked font is applied to the entire site."
+msgstr ""
+
+#: sgfj-admin.php:169
+msgid "If nothing is checked, it will return before using the plug-in."
+msgstr ""
+
+#: sgfj-admin.php:170
+msgid "Weight options are only available for \"Noto Sans JP\", \"M PLUS 1p\", \"Noto Serif JP\" and \"M PLUS Rounded 1c\"."
+msgstr ""
+
+#: sgfj-admin.php:172
+msgid "Select “Yes” to apply the font to the editor."
+msgstr ""
+
+#: sgfj-admin.php:173
+msgid "However, this does not apply to text editors (classic)."
+msgstr ""

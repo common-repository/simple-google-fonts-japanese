@@ -1,0 +1,128 @@
+.sgfj_admin_title{
+	margin:1.5em 0 80px;
+	font-weight:normal;
+	line-height:1.2em;
+}
+.sgfj_admin{
+	font-size: 1.2em;
+	border:1px solid #ccc;
+	position: relative;
+	background:#fff;
+	margin:40px 15px 15px 0;
+	padding:20px 35px 35px;
+}
+.sgfj_admin h2{
+	margin:30px 0 10px;
+	position:relative;
+}
+.sgfj_bold:before{
+	font-family:'dashicons';
+	content: "\f111";
+	opacity:.4;
+	position:absolute;
+	top:50%;
+	left:0;
+	transform:translateY(-50%);
+}
+.sgfj_bold:before{
+	content: "\f534";
+}
+.sgfj_admin img{
+    max-width:100%;
+    height: auto;
+	margin:10px 0 0;
+	border:1px solid #ccc;
+}
+.sgfj_bold{
+	font-weight:bold;
+	padding:0 0 0 1.2em;
+	position: relative;
+}
+.sgfj_field{
+	line-height: 2.8em;
+	margin:0 0 0 30px;
+}
+.sgfj_admin input[type=checkbox]{
+	position: relative;
+	top:4px;
+}
+.sgfj_radio{
+	margin:30px 0 0 30px;
+}
+#sgfj_editor_yes{
+	margin:0;
+}
+#sgfj_editor_no{
+	margin:0 0 0 1.5em;
+}
+[class*="sgfj_admin_content_"],input[type=radio][id*="sgfj_m"]{
+	display:none;
+}
+.sgfj_admin_menu_list_1,.sgfj_admin_menu_list_2{
+	background:#eee;
+	border:1px solid #ccc;
+	padding:0px;
+	text-align:center;
+	transition: 0.3s ease-in-out;
+}
+
+.sgfj_admin_menu_list_1,.sgfj_admin_menu_list_2{
+	position: absolute;
+	top:-42px;
+	width:180px;
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+}
+.sgfj_admin_menu_list_1,.sgfj_admin_menu_list_2{
+	width:180px;
+}
+.sgfj_admin_menu_list_1 {
+	left:-1px;
+}
+.sgfj_admin_menu_list_2 {
+	left:180px;
+}
+#sgfj_m1:checked ~ .sgfj_admin_content_1,#sgfj_m2:checked ~ .sgfj_admin_content_2{
+	display:block;
+	transition: 0.3s ease-in-out;
+}
+#sgfj_m1:checked ~ .sgfj_admin_menu_list_1,#sgfj_m2:checked ~ .sgfj_admin_menu_list_2{
+	background:#fff;
+	border-bottom:1px solid #fff;
+}
+.dashicons{
+	text-decoration:none;
+}
+.sgfj_admin p.submit{
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 782px) {
+[class*="sgfj_admin_menu_list_"] {
+	width:calc(50% - 0px);
+}
+.sgfj_admin_menu_list_2{
+	width:calc(50% - 1px);
+}
+.sgfj_admin_menu_list_1 {
+	left:-1px;
+}
+.sgfj_admin_menu_list_2 {
+	left:calc(50% - 1px);
+	border-right:none;
+}
+.sgfj_admin{
+	padding:20px 20px 25px;
+	margin: 40px 0px 15px -10px;
+	border-left:none;
+	border-right:none;
+}
+.sgfj_field{
+	margin:0 0 0 5px;
+}
+.sgfj_radio{
+	margin:30px 0 0 5px;
+}
+}
